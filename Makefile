@@ -5,4 +5,4 @@ pack:
 install:
 	choco install -y helmfile -dv -s .
 push:
-	choco push .\helmfile.0.99.1.nupkg -s https://chocolatey.org
+	choco push .\helmfile.0.99.1.nupkg -s https://chocolatey.org --apikey=${apikey}
